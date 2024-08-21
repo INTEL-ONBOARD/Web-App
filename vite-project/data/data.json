@@ -1,0 +1,26 @@
+{
+    "notes": [
+      {
+        "id": 1,
+        "title": "Meeting Notes",
+        "content": "Discuss project milestones and assign tasks.",
+        "tag": "Work",
+        "date": "2024-08-21"
+      },
+      {
+        "id": 2,
+        "title": "Grocery List",
+        "content": "Milk, Eggs, Bread, Butter",
+        "tag": "Personal",
+        "date": "2024-08-20"
+      },
+      {
+        "id": 3,
+        "title": "Book Ideas",
+        "content": "Outline for the first chapter.",
+        "tag": "Writing",
+        "date": "2024-08-19"
+      }
+    ]
+  }
+  

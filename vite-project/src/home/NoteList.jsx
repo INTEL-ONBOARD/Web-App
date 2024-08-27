@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './Home.css'
 import Note from './Note';
 
@@ -27,13 +27,17 @@ function NoteList() {
       }]);
 
 
+      useEffect( () => {
+        console.log("here");
+      })
+
   return (
     <>
         <div className="listView flex content-center">            
             <div class="grid grid-cols-2 md:grid-cols-3 gap-7 m-10">
                 {
                     noteset.map( (note) => (
-                        <Note note={note}/>
+                        <Note note={note} key={note.id}/>
                     ))
                 }
             </div>
